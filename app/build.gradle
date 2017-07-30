@@ -42,6 +42,11 @@ dependencies {
     compile 'com.firebaseui:firebase-ui-auth:2.1.1'
     compile 'com.google.firebase:firebase-storage:11.0.2'
 
+    //Firebase can recieve notifications for the users
+    compile 'com.google.firebase:firebase-messaging:11.0.2'
+
+    //Remote Config
+    compile 'com.google.firebase:firebase-config:11.0.2'
     // Displaying images
     compile 'com.github.bumptech.glide:glide:3.6.1'
 }
